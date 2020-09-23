@@ -12,8 +12,10 @@ This features include registering ,login and validating if user is correctly reg
     When I enter username as "<username>"
     When I enter password as "<password>"
     Then click on Register button
+    And Validate if correct firstname and last name is populated after registration
     And Validate if correct email ID "<email>" is populated
     Examples:
+      |  firstname  | lastname | email | username | password |
       |  Abhinav  | Goyal | abhinavgoyal13@gmail.com | abhinav | goyal |
       |  Abhilash  | Goyal | abhilashgoyal13@gmail.com | abhilash | goyal |
 
