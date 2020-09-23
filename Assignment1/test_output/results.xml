@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="58.418">
+<testcase classname="To Register,Login and validate user" name="Register with multiple users" time="31.764">
+<system-out><![CDATA[Given I am able to navigate to landing page.................................passed
+When I click on SignUp button...............................................passed
+When I enter firstname as "Abhinav".........................................passed
+When I enter lastname as "Goyal"............................................passed
+When I enter email as "abhinavgoyal13@gmail.com"............................passed
+When I enter username as "abhinav"..........................................passed
+When I enter password as "goyal"............................................passed
+Then click on Register button...............................................passed
+And Validate if correct firstname and last name is populated after registration.passed
+And Validate if correct email ID "abhinavgoyal13@gmail.com" is populated....passed
+]]></system-out>
+</testcase>
+<testcase classname="To Register,Login and validate user" name="Register with multiple users 2" time="26.261">
+<system-out><![CDATA[Given I am able to navigate to landing page.................................passed
+When I click on SignUp button...............................................passed
+When I enter firstname as "Abhilash"........................................passed
+When I enter lastname as "Goyal"............................................passed
+When I enter email as "abhilashgoyal13@gmail.com"...........................passed
+When I enter username as "abhilash".........................................passed
+When I enter password as "goyal"............................................passed
+Then click on Register button...............................................passed
+And Validate if correct firstname and last name is populated after registration.passed
+And Validate if correct email ID "abhilashgoyal13@gmail.com" is populated...passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,409 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am able to navigate to landing page",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.i_am_able_to_navigate_to_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-23T18:52:37.706Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18939000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.base()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Register with multiple users",
+        "description": "",
+        "id": "to-register-login-and-validate-user;register-with-multiple-users;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5750000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.driverclose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3251000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on SignUp button",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.I_click_on_SignUp_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 194000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter firstname as \"Abhinav\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abhinav\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.i_enter_firstname_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter lastname as \"Goyal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Goyal\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.i_enter_lastname_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter email as \"abhinavgoyal13@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abhinavgoyal13@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.i_enter_email_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter username as \"abhinav\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abhinav\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 288000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter password as \"goyal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"goyal\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2105000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on Register button",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.click_on_register_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 391000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Validate if correct firstname and last name is populated after registration",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.validate_if_correct_firstname_and_last_name_is_populated_after_registration()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Validate if correct email ID \"abhinavgoyal13@gmail.com\" is populated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abhinavgoyal13@gmail.com\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.validate_if_correct_email_id_is_populated(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am able to navigate to landing page",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.i_am_able_to_navigate_to_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-23T18:53:09.546Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15004000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.base()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Register with multiple users",
+        "description": "",
+        "id": "to-register-login-and-validate-user;register-with-multiple-users;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1545000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.driverclose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6399000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on SignUp button",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.I_click_on_SignUp_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter firstname as \"Abhilash\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abhilash\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.i_enter_firstname_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter lastname as \"Goyal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Goyal\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.i_enter_lastname_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter email as \"abhilashgoyal13@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abhilashgoyal13@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.i_enter_email_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter username as \"abhilash\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abhilash\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 291000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter password as \"goyal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"goyal\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2039000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on Register button",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.click_on_register_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Validate if correct firstname and last name is populated after registration",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.validate_if_correct_firstname_and_last_name_is_populated_after_registration()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Validate if correct email ID \"abhilashgoyal13@gmail.com\" is populated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abhilashgoyal13@gmail.com\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.validate_if_correct_email_id_is_populated(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To Register,Login and validate user",
+    "description": "This features include registering ,login and validating if user is correctly registered",
+    "id": "to-register-login-and-validate-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
